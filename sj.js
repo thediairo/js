@@ -64,10 +64,7 @@ const dibjuar=()=>{
     va.style.transform=  "translateY" + "("  + t2 + "px" + ")" + "translateX" + "("  + t1 + "px" + ")"   ;  
 
     let sa=parseInt(sca.value);
-    va.style.transform="scale("+sa+")";
-    
-   
-    
+    va.style.transform="scale("+sa+")";   
     
     va.style.boxShadow= sx+"px "+sy+"px "+s+"px " + sc;  
 
