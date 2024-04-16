@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="text-center">
+   
+    <h1>Imc</h1>
+    <p>Peso</p><input type="range" min="10" max="150" value="0" id="numero" class="form-control w-20"  ><center><p id="qnum">10 kg</p></center><br>
+    <p>Altura</p><input type="range" min="50" max="250" value="0" id="peso" class="form-control w-20"  ><center><p id="qnum2">50 cm</p></center><br>
+    <h1>IMC:</h1><div id="imc"></div>
+    <table class="table w-50 m-auto">
+        <tr id="Infrapeso">
+            <td class="Infrapeso" id="t1">
+                Infrapeso
+            </td>
+            <td class="Infrapeso" id="t1">
+                <p><18.5</p>
+            </td>
+        </tr>
+        <tr id="Normal">
+            <td class="Normal" id="t2">
+                Normal
+            </td>
+            <td class="Normal" id="t2">
+                <p>18.5 a 24.9</p>
+            </td>
+        </tr>
+        <tr id="Sobrepeso">
+            <td class="Sobrepeso" id="t3">
+                Sobrepeso
+            </td>
+            <td class="Sobrepeso" id="t3">
+                <p>25 a 29.9</p>
+            </td>
+        </tr>
+        <tr id="">
+            <td class="Obecidad1" id="t4">
+                Obecidad 1
+            </td>
+            <td class="Obecidad1" id="t4">
+                <p>30 a 34.9</p>
+            </td>
+        </tr>
+
+        <tr id="" >
+            <td class="Obecidad2" id="t5">
+                Obecidad 2
+            </td>
+            <td class="Obecidad2" id="t5">
+                <p>35 a 39.9</p>
+            </td>
+        </tr>
+        <tr id="">
+            <td class="Obecidad3" id="t6">
+                Obecidad 3
+            </td>
+            <td class="Obecidad3" id="t6">
+                <p>40></p>
+            </td>
+        </tr>
+    </table>
+    
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+            border: solid black;
+            position: relative;
+    left: 1000px;
+    top: -55px;
+
+        }
+        #t1{
+            background-color: blue;
+        }
+        #t2{
+            background-color: green;
+        }
+        #t3{
+            background-color: yellow;
+        }
+        #t4{
+            background-color: orange;
+        }
+        #t5{
+            background-color: red;
+        }
+        #t6{
+            background-color: purple;
+        }
+    </style>
+
+
+ <script src="Imcjs.js"></script>
+</body>
+</html>

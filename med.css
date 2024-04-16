@@ -24,7 +24,7 @@ a{
     background-color: white;
     padding: 13px;
     border-radius: 10px;
-    border: solid peru;
+    border: solid purple;
 }
 a:hover{
     box-shadow: 0 0 5px white;
