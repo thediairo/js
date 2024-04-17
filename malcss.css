@@ -1,0 +1,7 @@
+
+*{
+    transition: 1s;
+}
+div{
+    transform: rotateY(180deg);
+}
