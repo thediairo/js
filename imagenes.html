@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="text-center">
+    <style>
+        *{
+            transition: 1s;
+        }
+        #ima{
+            display: flex;
+            aspect-ratio: 16 / 9;
+            overflow-x: auto;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            padding: 2rem;
+            position: relative;
+            max-width: 50rem;
+            margin: 0 auto;
+            flex: 1 0 100%;
+            scroll-snap-align: start;
+            object-fit: cover;
+        }
+        a{
+            border: 1px solid black;
+            border-radius: 15px;
+            text-decoration: none;
+            background-color: black;
+        }
+        img{
+            display: flex;
+            flex: 2 0 120%;
+        }
+    </style>
+    <h1>Imagenes</h1> 
+    <div id="contenido">
+    <div id="ima">
+        <img src="descargar (1).jpeg" id="des">
+        <img src="descargar (2).jpeg" id="nose">
+        <img src="nomo.jpeg" id="nomo">
+        <img src="ri.jpeg" id="rica">
+    </div><hr><hr><hr>
+    <div>
+        <button class="bo1"><a href="#des" class="b">.</a></button>
+        <button class="bo2"><a href="#nose" class="b">.</a></button>
+        <button class="bo3"><a href="#nomo" class="b">.</a></button>
+        <button class="bo4"><a href="#rica" class="b">.</a></button>
+    </div>
+</div>
+<script src="hola.js"></script>
+</body>
+</html>
