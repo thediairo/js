@@ -22,7 +22,7 @@ b3.onclick=()=>{
     n1.innerHTML="<img src='descargar (1).jpeg'>";
 }
 b4.onclick=()=>{
-    n1.style.transform= " rotateY(0deg)";
+    n1.style.transform= " rotateY(gir0deg)";
     n1.innerHTML="<img src='descargar (2).jpeg'>";
 }
 bb.onclick=()=>{
