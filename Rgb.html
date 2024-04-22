@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="text-center w-50 m-auto" >
+    <style>
+        div{
+            border: solid black 2px;
+            height: 60px;
+           
+        }
+    </style>
+    <h1>RGB</h1>
+    <p>Rojo</p><input type="range" min="0" max="255" value="0" id="rojo" class="form-range  "  ><center><p id="qcol1">0 </p></center><br>
+    <p>Verde</p><input type="range" min="0" max="255" value="0" id="verde" class="form-range  "  ><center><p id="qcol2">0 </p></center><br>
+    <p>Azul</p><input type="range" min="0" max="255" value="0" id="azul" class="form-range  "  ><center><p id="qcol3">0 </p></center><br>
+    <p id="color"></p>
+    <div id="cubito"></div>
+    <script src="rgbjs.js"></script>
+    
+</body>
+</html>
